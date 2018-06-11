@@ -1,5 +1,6 @@
 body {
   font-family: "Quicksand", sans-serif;
+  margin: 0%;
 }
 #navbar {
   display: flex;
@@ -9,7 +10,7 @@ body {
   font-weight: bold;
   font-size: 2em;
 }
-#navbar p {
+#navbar a {
   padding-left: 2em;
 }
 #me {
@@ -52,6 +53,7 @@ body {
   height: 20em;
   font-size: 1.5em;
   line-height: 1.6;
+  max-width: 100%;
 }
 #works h1 {
   text-align: center;
@@ -74,7 +76,7 @@ body {
   max-width: 1000px;
   margin: auto;
   position: relative;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   padding-top: 2em;
 }
 
@@ -121,6 +123,7 @@ body {
 .text {
   color: #f2f2f2;
   font-size: 15px;
+  padding-top: 2em;
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
@@ -183,8 +186,16 @@ body {
   }
 }
 #forum {
-  padding-bottom: 10em;
   background-color: lightgray;
-  padding-left: 0;
-  padding-right: 0;
+  margin-top: 4em;
+  margin-left: -4em;
+  margin-right: -4em;
+  padding-left: 4em;
+  padding-right: 4em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+#trainapp {
+  padding-top: 2em;
+  padding-bottom: 4em;
 }
