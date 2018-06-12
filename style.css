@@ -13,6 +13,14 @@ body {
 #navbar a {
   padding-left: 2em;
 }
+#navbar a:link, a:visited {
+  color: rgb(85, 0, 0);
+  text-decoration: none;
+}
+#navbar a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
 #me {
   display: flex;
   flex-direction: row;
@@ -48,6 +56,15 @@ body {
   text-align: center;
   font-weight: bold;
 }
+.linktotop {
+  text-align: center;
+  font-size: 0.7em;
+  padding-top: 1em
+}
+.linktotop:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
 #works {
   padding: 4em;
   height: 20em;
@@ -81,7 +98,8 @@ body {
 }
 
 .mySlides,
-.mySlides2 {
+.mySlides2,
+.mySlides3 {
   display: none;
   padding-left: 10%;
   padding-right: 10%;
@@ -90,7 +108,9 @@ body {
 .prev,
 .next,
 .prev2,
-.next2 {
+.next2,
+.prev3,
+.next3 {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -106,7 +126,8 @@ body {
 
 /* Position the "next button" to the right */
 .next,
-.next2 {
+.next2,
+.next3 {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
@@ -115,7 +136,9 @@ body {
 .prev:hover,
 .next:hover,
 .prev2:hover,
-.next2:hover {
+.next2:hover,
+.prev3:hover,
+.next3:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
@@ -133,7 +156,8 @@ body {
 
 /* Number text (1/3 etc) */
 .numbertext,
-.numbertext2 {
+.numbertext2,
+.numbertext3 {
   color: darkgray;
   font-size: 12px;
   padding: 8px 12px;
@@ -144,7 +168,8 @@ body {
 
 /* The dots/bullets/indicators */
 .dot,
-.dot2 {
+.dot2,
+.dot3 {
   cursor: pointer;
   height: 15px;
   width: 15px;
@@ -194,8 +219,24 @@ body {
   padding-right: 4em;
   padding-top: 2em;
   padding-bottom: 2em;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
 }
 #trainapp {
   padding-top: 2em;
   padding-bottom: 4em;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+#closing {
+  background-color: rgb(85, 0, 0);
+  color: white;
+  padding: 4em;
+  margin-left: -4em;
+  margin-right: -4em;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
 }

@@ -2,12 +2,12 @@
 <html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <script src="myScript.js"></script>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>PS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
 </head>
 
 <body>
@@ -39,6 +39,7 @@
             took the open online course "Elements of AI" by Reaktor and Helsinki University. I am passionate about learning.
             My plan is to continue perfecting my coding skills and hope the future holds an opportunity to be able to some
             day call myself a full stack web developer.</p>
+        <a class="linktotop" onclick="scrollToTop()">Back to top</a>
     </div>
     <div id="works">
 
@@ -49,7 +50,7 @@
                 <img id="logo" src="images/toy.png" alt="logo">
             </div>
             <div>
-                <p>"Leluhaku" was a single-page web application for searching toys and comparing prices. This was a group project
+                <p>"Leluhaku" is a single-page web application for searching toys and comparing prices. This was a group project
                     by three people, executed in an eight-day sprint. The project was part of an accelerated learning program,
                     I was responsible for the front end development and user interface design using React.js. Before this
                     project we had three days of teaching on React and one week where we covered HTML, CSS and JavaScript.
@@ -106,13 +107,14 @@
                 <span class="dot" onclick="currentSlide('dot', 'mySlides', 6)"></span>
                 <span class="dot" onclick="currentSlide('dot', 'mySlides', 7)"></span>
             </div>
+            <a class="linktotop" onclick="scrollToTop()">Back to top</a>
         </div>
         <div id="forum">
             <h2>Discussion forum</h2>
-            <p>This was a web application allowing users to have conversations about pets. It is a Spring Boot application which
-                uses a MySQL database, and the front end is executed using Thymeleaf. This was a group project for an accelerated
-                learning program in Java. It was accomplished by four people in three days, with seven weeks of teaching
-                behind us.</p>
+            <p>"Foorumi" is a web application allowing users to have conversations about pets. It is a Spring Boot application
+                which uses a MySQL database, and the front end is executed using Thymeleaf. This was a group project for
+                an accelerated learning program in Java. It was accomplished by four people in three days, with seven weeks
+                of teaching behind us.</p>
             <div class="slideshow-container">
 
                 <div class="mySlides2 fade">
@@ -157,22 +159,80 @@
                 <span class="dot2" onclick="currentSlide('dot2', 'mySlides2', 5)"></span>
                 <span class="dot2" onclick="currentSlide('dot2', 'mySlides2', 6)"></span>
             </div>
-
+            <a class="linktotop" onclick="scrollToTop()">Back to top</a>
         </div>
         <div id="trainapp">
             <h2>Train traffic application</h2>
             <p>
-                This was an application using real time train traffic information from Finnish Transportation Agency's open data service Digitraffic.
+                This is an application using real time train traffic information from Finnish Transportation Agency's open data service Digitraffic.
                 The application provides a text-based user interface for searching train information. You can search information
                 by train number or by station (all departing trains from a specific station, or all trains running between
                 two stations). You can also search a specific train's geographical location by coordinates or location by
                 which stations it has passed if it's currently running. The application covers both long-distance trains
                 and commuter trains. This was a group project for an accelerated learning program in Java, accomplished by
                 a group of four people in three days, with three weeks of teaching behind us.</p>
+            <div class="slideshow-container">
+
+                <div class="mySlides3 fade">
+                    <div class="numbertext3">1 / 7</div>
+                    <img src="images/junahome.JPG" style="width:100%">
+                </div>
+
+                <div class="mySlides3 fade">
+                    <div class="numbertext3">2 / 7</div>
+                    <img src="images/junaw6.JPG" style="width:100%">
+                </div>
+
+                <div class="mySlides3 fade">
+                    <div class="numbertext3">3 / 7</div>
+                    <img src="images/junakoord.JPG" style="width:100%">
+                </div>
+                <div class="mySlides3 fade">
+                    <div class="numbertext3">4 / 7</div>
+                    <img src="images/junaw2.JPG" style="width:100%">
+                </div>
+
+                <div class="mySlides3 fade">
+                    <div class="numbertext3">5 / 7</div>
+                    <img src="images/junaw1.JPG" style="width:100%">
+                </div>
+
+                <div class="mySlides3 fade">
+                    <div class="numbertext3">6 / 7</div>
+                    <img src="images/junaw3.JPG" style="width:100%">
+                </div>
+                <div class="mySlides3 fade">
+                    <div class="numbertext3">7 / 7</div>
+                    <img src="images/junaw5.JPG" style="width:100%">
+                </div>
+
+                <a class="prev3" onclick="plusSlides('dot3', 'mySlides3', -1)">&#10094;</a>
+                <a class="next3" onclick="plusSlides('dot3', 'mySlides3', 1)">&#10095;</a>
+            </div>
+            <br>
+
+            <div style="text-align:center">
+                <span class="dot3" onclick="currentSlide('dot3', 'mySlides3', 1)"></span>
+                <span class="dot3" onclick="currentSlide('dot3', 'mySlides3', 2)"></span>
+                <span class="dot3" onclick="currentSlide('dot3', 'mySlides3', 3)"></span>
+                <span class="dot3" onclick="currentSlide('dot3', 'mySlides3', 4)"></span>
+                <span class="dot3" onclick="currentSlide('dot3', 'mySlides3', 5)"></span>
+                <span class="dot3" onclick="currentSlide('dot3', 'mySlides3', 6)"></span>
+                <span class="dot3" onclick="currentSlide('dot3', 'mySlides3', 7)"></span>
+
+            </div>
+            <a class="linktotop" onclick="scrollToTop()">Back to top</a>
 
             <!-- Train-div ends here -->
         </div>
-
+        <div id="closing">
+            <h2>This website</h2>
+            <p>The page you're looking at was not done using any templates, but is my own design and was created with plain
+                old HTML, CSS and JavaScript. I wanted to practice my basic skills on web development and therefore decided
+                not to use any frameworks or templates, and concentrated on a minimalist, flat-design website that I can
+                call my own.</p>
+            <a class="linktotop" onclick="scrollToTop()">Back to top</a>
+        </div>
 
     </div>
     <script>
@@ -186,7 +246,8 @@
             showSlides(dot, slideshow, (slideIndex = n));
         }
 
-        const showSlides = (dot, slideshow, n = 1) => {
+        const showSlides = (dot, slideshow, n) => {
+            slideIndex = n;
             console.log(slideIndex);
             let i;
             const slides = document.getElementsByClassName(slideshow);
@@ -204,12 +265,17 @@
         }
         window.addEventListener("DOMContentLoaded", showSlides("dot", "mySlides", slideIndex), false);
         window.addEventListener("DOMContentLoaded", showSlides("dot2", "mySlides2", slideIndex), false);
+        window.addEventListener("DOMContentLoaded", showSlides("dot3", "mySlides3", slideIndex), false);
         const scrollToAbout = () => {
             let el = document.getElementById("whoami");
             el.scrollIntoView({ behavior: "smooth", block: "center", inline: "nearest" });
         }
         const scrollToWorks = () => {
             let el = document.getElementById("works");
+            el.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
+        }
+        const scrollToTop = () => {
+            let el = document.getElementById("navbar");
             el.scrollIntoView({ behavior: "smooth", block: "center", inline: "nearest" });
         }
     </script>
