@@ -12,9 +12,9 @@
 
 <body>
     <div id="navbar">
-        <a name="whoami">About me</a>
-        <p>Portfolio</p>
-        <p>CV</p>
+        <a onclick="scrollToAbout()">About me</a>
+        <a onclick="scrollToWorks()">Portfolio</a>
+        <a href="cv.html">CV</a>
     </div>
     <div id="me">
         <img id="pic" src="images/picp.jpg">
@@ -31,7 +31,7 @@
             into a career in IT. I'm an ambitious and hardworking spirit who's never afraid of a little challenge, so I applied
             in an intensive learning program in programming. After multiple years of academia, I found the idea of hands-on
             learning welcome, and was convinced that the only way to learn to code, is to code. The spring of 2018 was an
-            immersive experience into the world of software development, and left me with core understanding and an eagerness
+            immersive experience into the world of software development, and resulted in core understanding and an eagerness
             for life-long learning! </p>
         <p>The accelerated learning program was focused around Java, but covered a number of other areas as well. I learned
             server-side programming, database handling, front end development, agile product development, UX-design and cloud-computing.
@@ -178,8 +178,6 @@
     <script>
         let slideIndex = 1;
 
-
-
         const plusSlides = (dot, slideshow, n) => {
             showSlides(dot, slideshow, (slideIndex += n));
         }
@@ -206,6 +204,14 @@
         }
         window.addEventListener("DOMContentLoaded", showSlides("dot", "mySlides", slideIndex), false);
         window.addEventListener("DOMContentLoaded", showSlides("dot2", "mySlides2", slideIndex), false);
+        const scrollToAbout = () => {
+            let el = document.getElementById("whoami");
+            el.scrollIntoView({ behavior: "smooth", block: "center", inline: "nearest" });
+        }
+        const scrollToWorks = () => {
+            let el = document.getElementById("works");
+            el.scrollIntoView({ behavior: "smooth", block: "center", inline: "nearest" });
+        }
     </script>
 </body>
 
