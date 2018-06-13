@@ -242,3 +242,15 @@ body {
   flex-direction: column;
   align-content: center;
 }
+#footer {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+}
+#footer p {
+  font-size: 0.7em;
+  margin-top: -0.2em;
+}
+.item {
+  padding-left: 1em;
+}
