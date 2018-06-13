@@ -38,9 +38,11 @@ body {
 #me p {
   font-size: 1.5em;
   color: darkgray;
+  flex-wrap: wrap;
 }
 #intro {
   padding-left: 3em;
+
 }
 #whoami {
   background-color: rgb(85, 0, 0);
