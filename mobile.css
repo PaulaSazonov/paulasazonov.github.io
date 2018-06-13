@@ -27,6 +27,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    padding-top: 10%;
   }
   #pic {
     max-width: 30%;
@@ -42,7 +43,7 @@ body {
   #me p {
     font-size: 0.8em;
     color: black;
-    padding-bottom: 1em;
+    padding-bottom: 15%;
     margin-top: -1em;
     margin-left: -2.5em;
     
