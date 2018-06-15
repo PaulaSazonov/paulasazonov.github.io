@@ -71,7 +71,7 @@ body {
   }
   #works {
     padding: 4em;
-    height: 20em;
+    padding-bottom: 1em;
     font-size: 1.5em;
     line-height: 1.6;
     max-width: 100%;
@@ -216,6 +216,15 @@ body {
     flex-direction: column;
     align-content: center;
   }
+  #trainhead {
+    display: flex;
+    flex-direction: row;
+  }
+  #train {
+    padding-left: 2em;
+    max-width: 50%;
+    object-fit: contain;
+  }
   #closing {
     background-color: rgb(85, 0, 0);
     color: white;
@@ -229,12 +238,20 @@ body {
   #footer {
     display: flex;
     flex-direction: row-reverse;
-    align-items: flex-start;
+    align-items: center;
   }
   #footer p {
-    font-size: 0.7em;
-    margin-top: -0.2em;
+    font-size: 1em;
+    margin-top: -0.5em;
   }
   .item {
+    display: flex;
+    flex-direction: row;
     padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+  }
+  .item p {
+    padding-left: 1em;
+    padding-top: 0.2em;
   }

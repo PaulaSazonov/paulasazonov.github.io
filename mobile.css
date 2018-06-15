@@ -58,12 +58,12 @@ body {
     color: white;
     font-size: 1em;
     line-height: 1.6;
-    padding: 1em;
+    padding: 1.5em;
     display: flex;
     flex-direction: column;
     align-content: center;
     margin-left: -0.5em;
-    margin-right: -1.5em;
+    margin-right: -2em;
   }
   #whoami h1 {
     text-align: center;
@@ -221,17 +221,26 @@ body {
   }
   #trainapp {
     padding-top: 2em;
-    padding-bottom: 4em;
+    padding-bottom: 2em;
     display: flex;
     flex-direction: column;
     align-content: center;
   }
+  #trainhead {
+    display: flex;
+    flex-direction: row;
+  }
+  #train {
+    padding-left: 2em;
+    max-width: 50%;
+    object-fit: contain;
+  }
   #closing {
     background-color: rgb(85, 0, 0);
     color: white;
-    padding: 1em;
+    padding: 2em;
     margin-left: -1.5em;
-    margin-right: -1.5em;
+    margin-right: -3em;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -239,12 +248,20 @@ body {
   #footer {
     display: flex;
     flex-direction: row-reverse;
-    align-items: flex-start;
+    align-items: flex-end;
+    justify-items: flex-end;
   }
   #footer p {
     font-size: 0.5em;
     margin-top: -0.2em;
   }
   .item {
+    display: flex;
+    flex-direction: row;
     padding-left: 1em;
+    padding-top: 0.5em;
+  }
+  .item p {
+    padding-left: 1em;
+    padding-top: 0.2em;
   }
