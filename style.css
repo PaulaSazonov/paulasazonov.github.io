@@ -68,7 +68,9 @@ body {
   cursor: pointer;
 }
 #works {
-  padding: 4em;
+  padding: 2em;
+  padding-left: 4em;
+  padding-right: 4em;
   height: 20em;
   font-size: 1.5em;
   line-height: 1.6;
