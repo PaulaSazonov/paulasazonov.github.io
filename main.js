@@ -14,7 +14,6 @@ const showToySlides = (dot, slideshow, n) => {
 
 const showSlides = (dot, slideshow, n) => {
   slideIndex = n;
-  console.log(slideIndex);
   let i;
   const slides = document.getElementsByClassName(slideshow);
   const dots = document.getElementsByClassName(dot);
